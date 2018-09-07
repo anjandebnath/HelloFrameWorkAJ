@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FrameWork</string>
+    <string name="ok">OK</string>
+    <string name="cancel">CANCEL</string>
+    <string name="drawable_exception">Drawable not found</string>
+    <!--details data retrieve-->
+    <string name="details_error_message">Could not retrieve data from server</string>
+
+    <!--Base process name-->
+    <string name="base_rm_process_name">:RmBaseService</string>
+    <string name="rm_process_name">.mesh</string>
+</resources>
