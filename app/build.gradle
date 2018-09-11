@@ -94,6 +94,7 @@ buildscript {
 
 }
 apply plugin: 'io.left.rightmesh.rightmesh-plugin'
+preBuild.dependsOn("rightmesh")
 
 configurations.all {
     resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
